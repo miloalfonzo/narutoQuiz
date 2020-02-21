@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Anton&display=swap" rel="stylesheet">
+    <title>¿Cuanto sabes de Naruto?</title>
+</head>
+<body>
+    <header>
+        <div>
+            <h1>¿Cuanto sabes de Naruto?</h1>
+        </div>
+    </header>
+
+        <input id="boton" class="boton" type="button" value="Comenzar test" onclick="start();">
+
+        <form id="test" name="test">         
+            <label for="preguno">¿Cómo se llama el papá de Naruto?</label>
+            <br>
+            <input type="text" class="textbox" name="preguno" >
+            <br>
+            <br>
+            <label for="pregudos">¿Quien es el sexto hokage?</label>
+            <br>
+            <input type="radio" name="pregudos" value="Kakashi"> Kakashi
+            <input type="radio" name="pregudos" value="Tsunade"> Tsunade
+            <br>
+            <br>
+            <label for="pregutres">¿Porqué Itachi se fue de Konoha?</label>
+            <br>
+            <input type="radio" name="pregutres" value="Para hacerse más fuerte"> Para hacerse más fuerte
+            <input type="radio" name="pregutres" value="Porque mató a su clan"> Porque mató a su clan
+            <br>
+            <br>
+            <label for="pregucuatro">¿Cómo se llama el demonio de las nueve colas?</label>
+            <br>
+            <input type="radio" name="pregucuatro" value="Kurama"> Kurama
+            <input type="radio" name="pregucuatro" value="Shukaku"> Shukaku
+            <br>
+            <br>
+            <label for="pregucinco">¿Quien es Tobi?</label>
+            <br>
+            <input type="radio" name="pregucinco" value="Obito Uchiha"> Obito Uchiha
+            <input type="radio" name="pregucinco" value="Madara Uchiha"> Madara Uchiha
+            <br>
+            <br>
+            <input id="btn" class="boton" type="button" value="Ver resultados" onclick = "check();">
+        </form>  
+        
+        <div id="luego_cargar">
+            <p id="mensaje"></p>
+            <p id="numero_correcto"></p>
+            <img id="imagenes">      
+        </div>
+        
+        <script src="main.js"></script>
+</body>
+</html>
