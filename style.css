@@ -64,9 +64,8 @@ img{
     visibility: hidden;
     background:white;
     padding: 10px 20px 20px 10px;
-    margin-left: 33%;
-    margin-right: 33%;
     border-radius: 8%;
     font-size: 35px;
+    display: inline-block;
 }
 
