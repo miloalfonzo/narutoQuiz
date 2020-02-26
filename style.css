@@ -62,7 +62,7 @@ img{
 }
 
 img{
-   width: 450px;
+   max-width: 450px;
 }
 
 #luego_cargar{
