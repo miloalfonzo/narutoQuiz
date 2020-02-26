@@ -24,7 +24,6 @@ h1{
     height: 600px;
     border-radius: 15px;
     padding: 10px 20px 10px 20px;
-    display: inline-block;
  }   
 
  .textbox{
@@ -66,6 +65,5 @@ img{
     padding: 10px 20px 20px 10px;
     border-radius: 8%;
     font-size: 35px;
-    display: inline-block;
 }
 
