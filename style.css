@@ -22,6 +22,8 @@ h1{
 #test{
     visibility: hidden;
     font-size: 26px;
+    margin-left: 30%;
+    margin-right: 30%;
     background: #f2a30b;
     border-bottom: 10px;
     width: 600px;
@@ -63,22 +65,12 @@ img{
    width: 450px;
 }
 
-.contenedor{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
 #luego_cargar{
     visibility: hidden;
     background:white;
     padding: 10px 20px 20px 10px;
-    margin-top: 20%;
+    margin-left: 33%;
+    margin-right: 33%;
     border-radius: 8%;
     font-size: 35px;
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    -webkit-transform: translate(-50%, -50%);
 }
