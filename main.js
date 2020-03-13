@@ -50,5 +50,6 @@ function check(){
     // El div con el chequeo de preguntas correctas será visible unicamente al clickear sobre el botón de ver resultados
     document.getElementById("luego_cargar").style.visibility = "visible";
     document.getElementById("test").style.display = "none";
+    document.getElementById("header").style.display = "none";
 }
 
