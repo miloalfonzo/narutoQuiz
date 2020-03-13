@@ -9,15 +9,11 @@
     <title>¿Cuanto sabes de Naruto?</title>
 </head>
 <body>
-    <header>
-        <div>
+        <div id="header" class="header">
             <h1>¿Cuanto sabes de Naruto?</h1> 
             <input id="boton" class="boton" type="button" value="Comenzar test" onclick="start();">
         </div>
-    </header>
-
-       
-
+    
         <form id="test" name="test">         
             <label for="preguno">¿Cómo se llama el papá de Naruto?</label>
             <br>
@@ -50,11 +46,12 @@
             <br>
             <input id="btn" class="boton" type="button" value="Ver resultados" onclick = "check();">
         </form>  
-        
+   
         <div id="luego_cargar">
             <p id="mensaje"></p>
             <p id="numero_correcto"></p>
-            <img id="imagenes">      
+            <img id="imagenes"> 
+            <br>     
             <input class="regresar" type="button" value="Hazlo de nuevo" onclick="document.location.reload();">
         </div>
         
