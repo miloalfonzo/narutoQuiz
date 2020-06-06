@@ -23,6 +23,7 @@ h1{
 
 #test{
     visibility: hidden;
+    line-height: 50px;;
     font-size: 26px;
     background: #f2a30b;
     border-bottom: 10px;

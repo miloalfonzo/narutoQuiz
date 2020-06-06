@@ -13,7 +13,11 @@ function check(){
 
     // Sí la respuesta corresponde al valor de la pregunta entonces la variable correct que comienza en cero irá aumentando en uno, que serán las respuestas correctas
 
-    if (preguno == "Minato") {
+    if (preguno == "Minato Namikaze" ||
+        preguno == "Minato namikaze" ||
+        preguno == "minato namikaze" ||
+        preguno == "minato Namikaze"
+    ) {
         correct++;
     }
     if (pregudos == "Kakashi") {
